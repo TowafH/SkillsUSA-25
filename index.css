@@ -29,6 +29,10 @@ header a:hover {
     color: #007BFF;
 }
 
+.container {
+    position: relative;
+}
+
 .container img {
     /* Layout */
     height: auto;
