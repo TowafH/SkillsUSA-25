@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     font-family: "Inter", "Limelight";
     background-color: #FFB703;
+    overflow-x: hidden;
  }
  
  
@@ -76,11 +77,43 @@ html, body {
  main .container {
     width: 40%;
     height: 50vh;
-    border: 2px solid red;
     position: absolute;
     align-items: center;
-    left: 25%;
+    left: 30%;
  }
+
+ main .container video {
+    position: absolute;
+    transition: 1s;
+ }
+
+ main .container #sinners {
+    left: 200%;
+ }
+
+ main .container .switching-menu {
+    position: absolute;
+    display: flex;
+    height: 20px;
+    width: 100px;
+    gap: 10px;
+    bottom: -30px;
+    left: 40%;
+ }
+
+main .container .switching-menu .circle {
+    height: 10px;
+    width: 10px;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 0;
+    position: relative;
+    transition: 0.5s;
+}
+
+.container .switch-menu #circle1 {
+    background-color: black;
+}
 
  main h1 {
     text-align: center;
