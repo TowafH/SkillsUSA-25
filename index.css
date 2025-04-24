@@ -5,6 +5,10 @@ html, body {
     background-color: #FFB703;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     justify-content: left;
