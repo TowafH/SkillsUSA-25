@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", "sans-serif", "Limelight";
+    font-family: "Inter", "Limelight";
     background-color: #219EBC;
 }
 
@@ -9,13 +9,13 @@ header {
     display: flex;
     justify-content: left;
     margin: 0;
-    background-color: #8ECAE6;
+    background-color: #023047;
 }
 
-header h1 {
-    font-size: 2rem;
-    margin: 5px;
-    font-family: "Limelight", sans-serif;
+header .logo {
+    height: 10%;
+    width: 5%;
+    padding: 10px;
 }   
 
 header ul {
@@ -26,8 +26,8 @@ header ul {
 
 header a {
     text-decoration: none;
-    color: white;
-    background-color: #023047;
+    color: black;
+    background-color: #FFB703;
     width: 10%;
     transition: 0.1s;
     border-radius: 10px;
@@ -36,7 +36,7 @@ header a {
 }
 
 header a:hover {
-    color: #FB8500;
+    color: #023047;
     background-color: #FFB703;
     border: 3px solid #FB8500;
 }
