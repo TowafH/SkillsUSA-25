@@ -9,8 +9,7 @@ header {
     display: flex;
     justify-content: left;
     margin: 0;
-    background-color: #023047;
-    border-bottom: 5px solid #023047;
+    background-color: #8ECAE6;
 }
 
 header h1 {
@@ -27,16 +26,18 @@ header ul {
 
 header a {
     text-decoration: none;
-    color: black;
-    border: 3px solid black;
+    color: white;
     background-color: #023047;
     width: 10%;
-    transition: 0.5s;
+    transition: 0.1s;
     border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 header a:hover {
     color: #FB8500;
+    background-color: #FFB703;
     border: 3px solid #FB8500;
 }
 
