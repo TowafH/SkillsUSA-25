@@ -81,3 +81,9 @@ html, body {
     align-items: center;
     left: 25%;
  }
+
+ main h1 {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+ }
