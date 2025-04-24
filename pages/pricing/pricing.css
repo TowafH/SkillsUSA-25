@@ -1,19 +1,22 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "Inter", "sans-serif", "Limelight";
+    font-family: "Inter", "Limelight";
+    background-color: #FFB703;
 }
 
 header {
     display: flex;
     justify-content: left;
+    align-items: center;
     margin: 0;
+    background-color: #023047;
 }
 
-header h1 {
-    font-size: 2rem;
-    margin: 5px;
-    font-family: "Limelight", sans-serif;
+header .logo {
+    height: 10%;
+    width: 3%;
+    padding: 10px;
 }   
 
 header ul {
@@ -24,11 +27,19 @@ header ul {
 
 header a {
     text-decoration: none;
-    color: #000;
+    color: black;
+    background-color: #FFB703;
+    width: 10%;
+    transition: 0.1s;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 header a:hover {
-    color: #007BFF;
+    color: #023047;
+    background-color: #FFB703;
+    border: 3px solid #FB8500;
 }
 
 header .search-bar {
