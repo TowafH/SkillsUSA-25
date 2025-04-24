@@ -30,3 +30,20 @@ header a {
 header a:hover {
     color: #007BFF;
 }
+
+header .search-bar {
+    /* Layout */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: auto;
+}
+
+header .search-bar input {
+    height: auto;
+    width: 500px;
+    margin: 0;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
