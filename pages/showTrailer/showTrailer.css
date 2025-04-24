@@ -91,6 +91,14 @@ html, body {
     left: 200%;
  }
 
+ main .container #thunder {
+    left: 200%;
+ }
+
+ main .container #fantastic {
+    left: 200%;
+ }
+
  main .container .switching-menu {
     position: absolute;
     display: flex;
