@@ -8,13 +8,14 @@ html, body {
 header {
     display: flex;
     justify-content: left;
+    align-items: center;
     margin: 0;
     background-color: #023047;
 }
 
 header .logo {
     height: 10%;
-    width: 5%;
+    width: 3%;
     padding: 10px;
 }   
 
