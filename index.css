@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: "Inter", "Limelight";
-    background-color: #219EBC;
+    background-color: #FFB703;
 }
 
 header {
@@ -61,6 +61,8 @@ header .search-bar input {
 
 .container {
     position: relative;
+    height: 100%;
+    align-items: center;
 }
 
 .container img {
@@ -69,10 +71,24 @@ header .search-bar input {
     width: 100%;
     padding: 0;
     margin: 0;
-    position: relative;
+    position: absolute;
     text-align: center;
-
+    transition: 1s;
     /* Style */
+}
+
+.container #butterfly {
+    transition: 1s;
+}
+
+.container #grass {
+    right: -100%;
+    transition: 1s;
+}
+
+.container #tree {
+    right: -100%;
+    transition: 1s
 }
 
 .container .movie-title {
@@ -80,4 +96,40 @@ header .search-bar input {
     position: absolute;
     top: 8px;
     left: 16px;
+}
+
+/* Switching between movie images */
+
+.container .switch-menu {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 475px;
+    height: 20px;
+    width: 100px;
+    gap: 20px;
+}
+
+.container .switch-menu img {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container .switch-menu .circle {
+    height: 10px;
+    width: 10px;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 0;
+    position: relative;
+    transition: 0.5s;
+}
+
+.container .switch-menu #circle1 {
+    background-color: black;
 }
