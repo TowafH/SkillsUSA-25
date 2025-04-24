@@ -58,3 +58,78 @@ header .search-bar input {
     border: 2px solid black;
     border-radius: 5px;
 }
+
+main h2 {
+    text-align: center;
+}
+
+main .feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main .feedback-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #023047;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+main h3 {
+    color: #FB8500;
+}
+
+.leave-review {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #FFB703;
+    border-radius: 10px;
+    color: #023047;
+}
+
+.leave-review h2 {
+    text-align: center;
+    color: black;
+}
+
+.leave-review .form-group {
+    margin-bottom: 15px;
+}
+
+.leave-review label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.leave-review input,
+.leave-review textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #023047;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.leave-review .submit-button {
+    background-color: #FB8500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.leave-review .submit-button:hover {
+    background-color: #FFB703;
+}
