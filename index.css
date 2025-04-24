@@ -1,8 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    /* If Inter doesn't work, utilize Limelight */
-    font-family: "Limelight", "Inter";
+    font-family: "Inter", "sans-serif", "Limelight";
 }
 
 header {
@@ -14,6 +13,7 @@ header {
 header h1 {
     font-size: 2rem;
     margin: 5px;
+    font-family: "Limelight", sans-serif;
 }   
 
 header ul {
