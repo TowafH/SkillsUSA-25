@@ -120,3 +120,11 @@ main .container .switching-menu .circle {
     color: black;
     margin-top: 10px;
  }
+
+ main .container2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 80%;
+ }
